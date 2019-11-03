@@ -1,10 +1,11 @@
 package stringBufferBuilder;
 
-// 				StringBuffer : they are mutable  | StringBuilder
-//==================================================================================================
-// difference between SBF and SBL is that SBF is thread safe and SBL is not, meaning, when one thread is accessing 
-// a string the other thread cannot access the same string
-
+/*				StringBuffer : they are mutable  | StringBuilder
+/==================================================================================================
+/ difference between SBF and SBL is that SBF is thread safe and SBL is not,
+/ meaning, when one thread is accessing 
+/ a string the other thread cannot access the same string
+*/
 public class SBFMethod {
 	public static void main(String args[]) {
 
